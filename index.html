@@ -9,6 +9,20 @@
 </head>
 <body class="main">
   <div id="root"></div>
-  <script type="text/babel" data-type="module" src="script.js"></script>
+  <script type="text/babel">
+    ReactDOM.render(
+      (<>
+        <div>
+          <h2>Alex</h2>
+          <p>Web Developer</p>
+        </div>
+        <div>
+          <h2>Lara</h2>
+          <p>Scientist</p>
+        </div>
+      </>),
+      document.querySelector('#root'),
+    );
+  </script>
 </body>
 </html>
